@@ -5,5 +5,18 @@
 */
 
 /* CSS Reset */
+body, header, nav, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
 /* Style Rule for body and image */
+
+body {
+  background-color: #e3eaf8;
+}
+img {
+  max-width: 100%
+  display: block;
+}
