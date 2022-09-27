@@ -68,5 +68,16 @@ main {
 
 main p{
   font-size: 1.25em;
-  
+
+}
+
+main h3{
+  padding-top: 2%;
+  font-size: 2em;
+}
+
+#image {
+  width: 45%;
+  float: left;
+  padding: 1%;
 }
