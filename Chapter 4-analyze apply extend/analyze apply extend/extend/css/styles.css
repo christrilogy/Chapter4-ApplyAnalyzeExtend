@@ -1,5 +1,5 @@
 /*
-Author: Maria Cruz
+Author: chr
 Date: Current Date
 File Name: styles.css
 */
@@ -58,7 +58,7 @@ main a {
 }
 
 /* Orange */
-  orange-hex {
+.orange.hex {
     background-color: #ff9900;
   }
   orange-rgb {
