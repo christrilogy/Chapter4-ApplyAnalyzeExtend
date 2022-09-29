@@ -37,11 +37,16 @@ nav ul {
 
 nav li {
         display: inline-block;
-        font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
+        font-size: 1.5em;
+        font-family: Verdana, Arial, sans-serif;
+        font-weight: bold;
         }
 
 nav li a {
-      display: block; color: #e3eaf8; padding: 0.5em 2em;
+      display: block;
+      color: #e3eaf8;
+      padding: 0.5em 2em;
+      text-decoration: none;
      }
 
 /*Style rules for main content*/
@@ -49,7 +54,9 @@ nav li a {
     padding: 2%;
     font-family: Geneva, Arial, sans-serif;
     overflow: auto;
+
 }
+a:link { text-decoration: none;}
 
 main p {
     font-size: 1.25em;
@@ -58,7 +65,10 @@ main p {
 main h3 {
     padding-top: 2%;
     font-size: 2em;
+    color: #47476b;
+
 }
+
 
 /* Style rule for footer content*/
 footer {
@@ -67,10 +77,11 @@ footer {
     color: #47476b;
     padding: 1% 0;
     border-top: 3px solid #47476b;
+    clear: left;
     }
 
 #css1, #css2, #css3 {
-        width: 27%;
+        width: 30%;
         float: left;
         padding: 0 1%;
       }
